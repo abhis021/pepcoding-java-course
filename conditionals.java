@@ -1,4 +1,4 @@
-import java.security.DrbgParameters.NextBytes;
+
 import java.util.Scanner;
 
 public class conditionals {
@@ -10,6 +10,7 @@ public static void main(String[] args) {
        Scanner xin = new Scanner(System.in);
        
        x =xin.nextInt();
+
        
        if(x%2 ==0)
        {
