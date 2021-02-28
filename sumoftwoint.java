@@ -10,6 +10,7 @@ public class sumoftwoint {
         int v2=y/x;
         int v3=x%y;
         int exp=prd/sum;
+        int exp2=(int)Math.pow(2,3);
 
         System.out.println("Sum of " +x+" and "+y+" is "+sum);
         System.out.println("Product of " +x+" and "+y+" is "+prd);
@@ -19,5 +20,6 @@ public class sumoftwoint {
 
         //exp xy/x+y
         System.out.println(exp);
+        System.out.println("The third power of 2 is "+exp2);;
     }
 }
