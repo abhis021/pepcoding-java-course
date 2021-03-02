@@ -10,7 +10,7 @@ public static void main(String[] args) {
        Scanner xin = new Scanner(System.in);
        
        x =xin.nextInt();
-
+        xin.close();
        
        if(x%2 ==0)
        {
