@@ -1,16 +1,14 @@
-import java.util.Scanner;
-
-public class GradingSystem {
-    public static void main(String[] args) {
-        
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter marks obtained: ");
-
-        int marks = sc.nextInt();
-        sc.close();
-
-//LOGIC AREA
-        if (marks>90){
+import java.util.*;
+  
+  public class Main{
+  
+  public static void main(String[] args) {
+      // input - don't change this code
+      Scanner scn = new Scanner(System.in);
+      int marks = scn.nextInt();
+      // input - don't change this code
+      scn.close();
+      if (marks>90){
             System.out.println("Excellent");
 
         }
@@ -34,12 +32,7 @@ public class GradingSystem {
 
         }
 
-
-
-
-
-
-
-    }
-    
-}
+      // code here      
+      }
+  
+   }
