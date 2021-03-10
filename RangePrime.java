@@ -5,6 +5,7 @@ public class RangePrime {
         Scanner s= new Scanner(System.in);
         int low = s.nextInt();
         int high = s.nextInt();
+        s.close();
         
         for(int num =low; num<=high; num++)
         {

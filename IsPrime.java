@@ -8,7 +8,7 @@ public class IsPrime{
         for(int k=1; k<=t; ++k)
         {
             int num = s.nextInt();
-        //s.close();
+        s.close();
 
         boolean flag = false;
 
